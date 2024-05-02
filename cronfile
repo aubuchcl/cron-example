@@ -1,0 +1,2 @@
+* * * * * /bin/echo "Hello from Cron" >> /var/log/cron.log 2>&1
+* * * * * /usr/bin/curl -s https://cycle.chrisaubuchon.com >> /var/log/cron.log 2>&1
